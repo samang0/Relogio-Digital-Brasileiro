@@ -1,0 +1,46 @@
+/* Estilos comuns para todos os tamanhos de tela */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #074978b5, #7a4ecbb5);
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; /* Adicionando cor ao título */
+}
+
+#clock {
+    margin-top: 90px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #333;
+}
+
+select {
+    margin-top: 70px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Consulta de mídia para dispositivos pequenos (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    #clock {
+        font-size: 48px;
+        margin-top: 60px;
+    }
+
+    select {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
